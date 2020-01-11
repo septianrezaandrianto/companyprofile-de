@@ -1,0 +1,236 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+/* html {
+  position: relative;
+} */
+body { 
+  padding-top: 3rem;
+  padding-bottom: 0;
+  color: #000;
+}
+
+/* Paginasi */
+.paginasi {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 40px;
+}
+.paginasi a {
+  padding: 3px 10px;
+  background-color: #f60;
+  color: #fff;
+  border-radius: 3px;
+  margin: 3px 2px;
+  min-width: 20px;
+  text-decoration: none;
+}
+.paginasi a:hover {
+  background-color: gray;
+}
+.paginasi strong {
+  padding: 3px 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 3px;
+  margin: 3px 2px;
+  min-width: 20px; 
+}
+/* navbar */
+.navbar-dark, .navbar {
+  min-height: 80px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.navbar ul li a, a.navlink {
+  color: #fff !important;
+}
+.navbar ul li a:hover{
+  color: orange !important;
+}
+.dropdown-menu {
+  background-color: #000;
+}
+a.dropdown-item {
+  color:  black !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  background-color: gray;
+  padding: 10px 2%;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing {
+  margin-top: 4rem;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+  margin-top: 20px;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+/* Card */
+.card h2 {
+  font-size: 22px;
+  border-bottom: solid thin #EEE;
+}
+.card h2 a {
+color: #f60;
+}
+.card h2 a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* judul */
+.judul {
+  /* background-color: #FFF; */
+  min-height: 100px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0;
+  padding-top: 2rem;
+}
+.judul h1 {
+  border-bottom: solid 2px #f60;
+}
+/* artikel */
+.artikel {
+  min-height: 300px;
+  background-color: #fff;
+  text-align: justify;
+}
+/* iframe */
+iframe {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+}
+/* jarak */
+.jarak {
+  margin-top: 3rem;
+}
+/* aside */
+aside {
+  border-radius: 5px;
+  border: solid thin #EEE;
+  padding:  10px 20px;
+  background-color: #f5f5f5;
+}
+aside h3 {
+  border-bottom: solid thin #eee;
+  font-size: 22px;
+}
+aside ul {
+  padding: 0;
+  margin: 0;
+}
+aside ul li {
+  padding: 5px 6px;
+  list-style: none;
+  border-bottom: dotted thin #f60;
+
+}
+aside ul li a {
+  color: #f60;
+}
+aside ul li a:hover {
+  color: #900;
+  text-decoration: none;
+}
+footer {
+  margin-bottom: 0 !important;
+}
+.footer {
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  height: 100%; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+
+}
+/* .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #333;
+  padding-top: 25px;
+} */
+.footer a {
+  color: orange;
+}
+
+/* RESPONSIVE CSS
+--------------------------------------------------
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
